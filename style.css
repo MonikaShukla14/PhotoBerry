@@ -1,0 +1,538 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
+@import url('http://fonts.cdnfonts.com/css/morva');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+                
+html, body {
+	margin: 0;
+	padding: 0;
+	height:100%;
+	width: 100%;
+	
+}
+/*   home page  */
+h2{
+	font-family: 'Raleway',sans-serif;
+	font-size: 300%;
+	font-weight: :700;
+	color:#2C2C2C;
+	text-align:center;
+	margin-top: 50px;
+}
+p{
+	font-family: 'Raleway',serif;
+	color:black;
+	font-size: 140%;
+	line-height: 100%;
+	text-align: justify;
+	font-weight: 700;
+}
+.intro{
+	height:100%;
+	width:100%;
+	background: url('/project/img/new5 (3).jpg') no-repeat 50% 50%;
+	background-size: cover;
+	display:table;
+	top:0;
+}
+.intro .inner{
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	max-width: none;
+}
+.content{
+	max-width: 600px;
+	margin:auto;
+}
+/*
+h3{
+	font-family: 'Raleway',serif;
+	color:black;
+	font-size: 50%;
+	line-height: 100%;
+	font-weight: 700;
+    margin-left: -300px;
+    margin-top: 300px;
+	
+}
+*/
+}
+.content p{
+	color:black;
+}
+.inner{
+	max-width: 600px;
+	margin: auto;
+	font-size: 170%;
+	line-height: 1.6;
+	padding: 10px;
+}
+/*------navbar----*/
+.max-width{
+	max-width: 1300px;
+	padding: 0 80px;
+	margin:auto;
+}
+.navbar{
+	position:fixed;
+	width:100%;
+	padding:15px 0;
+    font-family: 'Raleway',sans-serif;
+}
+.navbar .max-width{
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.navbar .logo {
+	color:black;
+	font-size:38px;
+	font-weight: 800;
+	list-style: none;
+	font-family: 'Sacramento',sans-serif;
+}
+.navbar .menu li{
+    list-style:none;
+    display: inline-block;
+}
+.navbar .menu li a{
+	color: black;
+    font-size:23px;
+    font-weight: 700;
+    margin-left: 25px;
+    text-decoration: none;
+}
+.navbar .menu li a:hover{
+	text-decoration: underline;
+}
+
+/*------end nav----*/
+/*      about      */
+.left-col{
+	width: 60%;
+	float:left;
+	margin:4% 0 4% 4%;
+}
+.sidebar{
+	width:19%;
+	float: left;
+    margin:4%;
+    margin-right: -20px;
+}
+/*   portfolio      */
+.port-nav{
+	width:100%;
+	padding:5px 0;
+    font-family: 'Raleway',sans-serif;
+    text-align: center;
+    margin-left: -35px;
+}
+.port-nav .port-menu li{
+    list-style:none;
+    display: inline-block;
+    padding:25px 25px;
+    font-size:20px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    text-align: center;
+    color: black;
+    font-weight: 500;
+    margin-left: 35px;
+    text-decoration: none;
+}
+.port-nav .port-menu li a{
+     color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+.port-nav .port-menu li:hover{
+	background: lightgrey;
+	color:#fff;
+	border-radius:8px;
+
+}	
+.box{
+	margin-left: 120px;
+}
+.one-third-port{
+	width:29.33333333%;
+	float:left;
+	padding: 10px;
+	text-align: center;
+	transition: 0.5s ease;
+}
+img{
+	width:100%;
+}
+.one-third-port img:hover{
+	opacity: .6;
+	transform: scale(1.1);
+}
+/*   team   */
+.box2{
+	height:400px;
+	margin-left: 120px;
+}
+.one-third-team{
+	width:29.33333333%;
+	float:left;
+	padding: 5px;
+	text-align: center;
+	transition: 0.5s ease;
+	box-shadow: 0 40px 30px lightgrey;
+}
+img{
+	width:100%;
+}
+.one-third-team:hover{
+	opacity: .6;
+	transform: translateY(15px);
+}
+.team-text h2{
+	top:0;
+	font-size:35px;
+	   font-family: 'Playfair Display',sans-serif;
+       text-align: center;
+}
+
+.team-text p{
+	font-size:20px;
+	   font-family: 'Playfair Display',sans-serif;
+       text-align: center;
+}
+.team-text p i{
+	font-size: 90%;
+	margin: 1% 5% 7% 4%;
+	color:#2C2C2C;
+}
+.team-text p i:hover{
+	color:#606060;
+}
+
+
+/*        contact           */
+.contact p{
+	text-align: center;
+	letter-spacing: 4px;
+line-height: 25px;
+}
+.contact a{
+	color: #2C2C2C;
+	text-decoration: none;
+}
+.break{
+	display: none;
+}
+.clearfix{
+	clear: both;
+	height:6%;
+}
+
+/*-----------form----------------*/
+.feedback{
+	background: #fff;
+	width:100%;
+	position: center;
+}
+.feedback .text{
+	font-size: 35px;
+	font-weight: 600;
+	text-align: center;
+	color:#2C2C2C;
+}
+.feedback form{
+	padding: 10px 40px;
+} 
+.feedback form .form-row{
+	display:flex;
+	margin:32px 0;
+}
+form .form-row .input-data{
+	width:100%;
+	height:40px;
+	margin:0 20px;
+	position: relative;
+}
+form .form-row .textarea{
+    height:70px;
+}
+.input-data input,
+.textarea textarea{
+	display:block;
+	height: 100%;
+	width:100%;
+	border: none;
+	font-size: 17px;
+	border-bottom:2px solid rgba(0,0,0,0.12); 
+}
+
+.textarea textarea{
+	resize: none;
+	padding-top: 10px;
+}
+
+.input-data label{
+	position:absolute;
+	bottom:43px;
+	font-size:16px;
+	pointer-events: none;
+	transition: all 0.3s ease;
+}
+.textarea label{
+	width:100%;
+	bottom:73px;
+	background: #fff;
+}
+
+.submit-btn .input-data input{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 75px;
+}
+
+/*----------footer----------*/
+.social{
+list-style-type: none;
+text-align: center;
+}
+.social li{
+	display: inline;
+}
+.social i{
+	font-size: 270%;
+	margin: 1% 5% 7% 4%;
+	color:#2C2C2C;
+}
+.social i:hover{
+	color:#606060;
+}
+footer.second{
+background-color: #2C2C2C;
+}
+footer.second p{
+	color: #FFF;
+	text-align: center;
+	padding: 5%;
+}
+@media screen and (max-width: 750px){
+	
+	.navbar .menu,nav:active ul{
+		padding: 8px 0;
+		left:23px;
+		width:50%;
+		top:34px;
+	}
+	.inner{
+		font-size: 120%;
+	}
+	.content h1{
+		font-size:170%;
+	}
+	p{
+		font-size:120%;
+	}
+	h2{
+		font-size:160%;
+	}
+	.left-col{
+		width: 96%;
+		margin:0 0 3% 0;
+		padding: 0 2%;
+	}
+	.sidebar{
+		width: 96%;
+		margin: 0 auto;
+	}
+	img{
+		padding: 2%;
+	}
+.one-third-port{
+	width:130%;
+	margin:0 0 0 -110px;
+	padding: 0;
+}
+.break{
+	display: block;
+}
+.parallax{
+	display: none;
+}
+.social i{
+	font-size:170%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
